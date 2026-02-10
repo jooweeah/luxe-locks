@@ -202,7 +202,7 @@ h4 {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: linear-gradient(135deg, var(--neutral-light) 0%, var(--neutral-mid) 100%);
+    background: linear-gradient(rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5)), url('images/hero.png') center/cover no-repeat;
     padding: var(--spacing-xl) var(--spacing-md);
     padding-top: calc(var(--spacing-xl) + 60px);
 }
@@ -213,12 +213,12 @@ h4 {
 
 .hero-tagline {
     margin-bottom: var(--spacing-sm);
-    color: var(--black);
+    color: var(--white, #ffffff);
 }
 
 .hero-subtitle {
     font-size: 1.25rem;
-    color: var(--neutral-dark);
+    color: var(--neutral-light, #f5f0eb);
     margin-bottom: var(--spacing-md);
 }
 
